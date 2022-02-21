@@ -1,0 +1,52 @@
+
+body {
+    height: 100vh;
+    margin:0px;
+    padding:0px;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    height: 10vh;
+    border: 1px black solid;
+    font-size: 5vw;
+}
+
+main {
+    border: 1px black solid;
+    height: 90vh;
+}
+
+
+nav {
+    border: 1px black solid;
+    height: 10vh;
+    font-size: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li {
+    width: 150px;
+    bottom: 0px;
+}
+
+#container {
+    border: 1px black solid;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+    
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+
